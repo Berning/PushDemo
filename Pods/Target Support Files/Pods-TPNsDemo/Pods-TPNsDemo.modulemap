@@ -1,0 +1,6 @@
+framework module Pods_TPNsDemo {
+  umbrella header "Pods-TPNsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
