@@ -122,7 +122,7 @@
 		58308A3225EB4788006FCB2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58A3831125EB713E00BDDB0C /* JPushDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JPushDemo.entitlements; sourceTree = "<group>"; };
 		58BBAA4625ECB3B100708520 /* entrust_2048_ca.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entrust_2048_ca.cer; sourceTree = "<group>"; };
-		58BBAA4D25ECB40600708520 /* pem-change.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pem-change.h"; sourceTree = "<group>"; };
+		58BBAA4D25ECB40600708520 /* p12-pem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "p12-pem.h"; sourceTree = "<group>"; };
 		795AE07BBF45B798093F90E3 /* Pods-BPushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPushDemo.debug.xcconfig"; path = "Target Support Files/Pods-BPushDemo/Pods-BPushDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8755BF940D395B227900EE0D /* Pods_BPushDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPushDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F322BB7D8A491338E03EA00 /* Pods-TPNsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPNsDemo.release.xcconfig"; path = "Target Support Files/Pods-TPNsDemo/Pods-TPNsDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 				583089AE25EB4714006FCB2E /* LaunchScreen.storyboard */,
 				583089B125EB4714006FCB2E /* Info.plist */,
 				583089B225EB4714006FCB2E /* main.m */,
-				58BBAA4D25ECB40600708520 /* pem-change.h */,
+				58BBAA4D25ECB40600708520 /* p12-pem.h */,
 			);
 			path = PushDemo;
 			sourceTree = "<group>";
