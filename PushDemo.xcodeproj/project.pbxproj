@@ -45,6 +45,7 @@
 		58308A2D25EB4788006FCB2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58308A2C25EB4788006FCB2E /* Assets.xcassets */; };
 		58308A3025EB4788006FCB2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58308A2E25EB4788006FCB2E /* LaunchScreen.storyboard */; };
 		58308A3325EB4788006FCB2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58308A3225EB4788006FCB2E /* main.m */; };
+		58BBAA4725ECB3B100708520 /* entrust_2048_ca.cer in Resources */ = {isa = PBXBuildFile; fileRef = 58BBAA4625ECB3B100708520 /* entrust_2048_ca.cer */; };
 		A37AA3805AFF733A0148A813 /* Pods_JPushDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BFF59BE1BD1659069DBBFF /* Pods_JPushDemo.framework */; };
 		BA589053FCCFC160DA0A0E27 /* Pods_PushDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55310C0E3D0CA93A015B5C21 /* Pods_PushDemo.framework */; };
 		E3CFBC886BAA9EE492737241 /* Pods_UPushDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9DFB0EDD0FA43F2DC54D21 /* Pods_UPushDemo.framework */; };
@@ -120,6 +121,8 @@
 		58308A3125EB4788006FCB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58308A3225EB4788006FCB2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58A3831125EB713E00BDDB0C /* JPushDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JPushDemo.entitlements; sourceTree = "<group>"; };
+		58BBAA4625ECB3B100708520 /* entrust_2048_ca.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entrust_2048_ca.cer; sourceTree = "<group>"; };
+		58BBAA4D25ECB40600708520 /* pem-change.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pem-change.h"; sourceTree = "<group>"; };
 		795AE07BBF45B798093F90E3 /* Pods-BPushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPushDemo.debug.xcconfig"; path = "Target Support Files/Pods-BPushDemo/Pods-BPushDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8755BF940D395B227900EE0D /* Pods_BPushDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPushDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F322BB7D8A491338E03EA00 /* Pods-TPNsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPNsDemo.release.xcconfig"; path = "Target Support Files/Pods-TPNsDemo/Pods-TPNsDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -206,6 +209,7 @@
 			children = (
 				582E03CA25EBD76E00D8901B /* PushDemo.entitlements */,
 				582E03D025EBD84800D8901B /* pushme.php */,
+				58BBAA4625ECB3B100708520 /* entrust_2048_ca.cer */,
 				583089A025EB470F006FCB2E /* AppDelegate.h */,
 				583089A125EB470F006FCB2E /* AppDelegate.m */,
 				583089A325EB470F006FCB2E /* SceneDelegate.h */,
@@ -217,6 +221,7 @@
 				583089AE25EB4714006FCB2E /* LaunchScreen.storyboard */,
 				583089B125EB4714006FCB2E /* Info.plist */,
 				583089B225EB4714006FCB2E /* main.m */,
+				58BBAA4D25ECB40600708520 /* pem-change.h */,
 			);
 			path = PushDemo;
 			sourceTree = "<group>";
@@ -470,6 +475,7 @@
 			files = (
 				583089B025EB4714006FCB2E /* LaunchScreen.storyboard in Resources */,
 				583089AD25EB4714006FCB2E /* Assets.xcassets in Resources */,
+				58BBAA4725ECB3B100708520 /* entrust_2048_ca.cer in Resources */,
 				582E03D125EBD84800D8901B /* pushme.php in Resources */,
 				583089AB25EB470F006FCB2E /* Main.storyboard in Resources */,
 			);

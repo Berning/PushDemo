@@ -1,6 +1,5 @@
 
 <?php
-
 // Put your device token here (without spaces):
 $deviceToken = '4d2ff9b253e64842510534fe9a512af8955e04f659493006bd3a8cdcd75b0c64';
 
